@@ -6,8 +6,7 @@ loading in the various extensions along the way (see Dockerfile for full list).
 Should allow you to get going with a full LAP stack and support for DB via linked container (such as mysql)
 with ease, allowing you to fine tune various aspects of the server and php via environment variables.
 
-This project is partialy taken from [here](https://github.com/ulsmith/alpine-apache-php7), but with
-some stabilization patches (all packages installed only from stable branch of Alpine repository).
+If you need PHP7 edition look at [this project](https://github.com/EvilFreelancer/alpine-apache-php7).
 
 ## Included in this image
 
