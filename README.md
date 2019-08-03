@@ -181,7 +181,7 @@ docker-compose up -d
 
 ### Docker
 
-If you would like some files into this container, maybe you don't want to map your volume and but want just copy files for a production system and install packages via composer, then you can create your own Dockerfile based on this image:
+If you would like to add some files into this container then you can create your own `Dockerfile` based on this image:
 
 ```
 FROM evilfreelancer/alpine-apache-php5
